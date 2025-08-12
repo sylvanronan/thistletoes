@@ -1,0 +1,222 @@
+.averia-libre-regular {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.averia-libre-bold {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFAAD;
+    color: #3e3e3e;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.language-span {
+    display: block;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    margin: 16px 0;
+}
+
+h1 {
+    font-size: 112px;
+    text-align: center;
+    margin: 4px 0;
+    cursor: default;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.cover-image {
+    width: 100%;
+}
+
+.text-block {
+    display: flex;
+    padding: 14px;
+}
+
+.tb2 {
+    text-align: right;
+}
+
+.text-block p, .text-block span {
+    font-size: 24px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.tb2, .tb3 {
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.tb2 img, .tb3 img {
+    width: 50%;
+}
+
+.book-1, .book-2 {
+    margin: 20px 0;
+}
+
+.book-1 {
+    transform: rotate(4deg);
+}
+
+.book-2 {
+    transform: rotate(-4deg);
+}
+
+.buy {
+    margin: 48px 0 12px 0;
+}
+
+.max-width {
+    display: block;
+    width: 100%;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-links-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 36px 0;
+}
+
+.book-links-wrap h3 {
+    font-size: 36px;
+}
+
+.book-block-img {
+    box-shadow: -1px 1px 17px 5px rgba(0,0,0,0.164);
+    -webkit-box-shadow: -1px 1px 17px 5px rgba(0,0,0,0.164);
+    -moz-box-shadow: -1px 1px 17px 5px rgba(0, 0, 0, 0.164);
+}
+
+.amazon-button {
+    width: 50%;
+    margin: 28px 0;
+}
+
+.l-wrap {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-wrap {
+    width: 60%;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.height-50 {
+    height: 50%;
+}
+
+.amazon-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amazon-links a {
+    display: block;
+    width: 25%;
+    text-align: center;
+}
+
+a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+
+.pb {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buy-pb {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+}
+
+.fi-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+.fi-links a {
+    display: block;
+    width: 25%;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 18px;
+    margin: 64px 0;
+}
