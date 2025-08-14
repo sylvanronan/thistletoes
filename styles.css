@@ -190,6 +190,7 @@ a:hover {
 .pb {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -199,24 +200,17 @@ a:hover {
     font-size: 36px;
 }
 
-.fi-links {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
-}
-
-.fi-links a {
-    display: block;
-    width: 25%;
-    text-align: center;
-}
-
 .footer {
     width: 100%;
     text-align: center;
     color: #3e3e3e;
     font-size: 18px;
     margin: 64px 0;
+}
+
+.pb a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
